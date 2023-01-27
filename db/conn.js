@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
-// const DB = process.env.DATABASE
-const DB = "mongodb://localhost:27017/hamadmirza"
+const DB = process.env.DATABASE
+// const DB = "mongodb://localhost:27017/hamadmirza"
 
 
 // Database connection 
