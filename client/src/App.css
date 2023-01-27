@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --btncolor:red;
+  --redtext:red;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.redtext{
+color: var(--redtext);
+}
+
+
+                               /* Navbar */
+.logo{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-link{
+line-height: 2rem;
+padding: none;
+margin: 0;
+}
+.nav-link:hover{
+color: red;
+
+}
+
+
+
+                                 /* Home Page  */
+.home_page{
+  height: 90vh;
+  background-image: radial-gradient(rgb(255, 255, 0),rgba(255, 166, 0, 0),rgba(255, 255, 255, 0));
+}
+.main_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.main_text h1{
+  font-size: 3rem;
+}
+.main_text h2{
+  font-size: 2rem;
+}
+
+
+
+                                  /* signup page  */
+.form-content{
+  background-color: transparent;
+  width: 70%;
+  height: auto;
+  box-shadow: 0 0 40px black;
+  border-radius: 10px;
+}
+.form-design{
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+.register_input{
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: transparent;
+  color: black;
+  outline: none;
+  padding: .6rem;
+  margin: .6rem 0;
+}
+.mybtn{
+  background-color: transparent;
+  border: 2px solid var(--btncolor);
+  color: black;
+  transition: all .4s;
+}
+.mybtn:hover{
+  background-color: var(--btncolor);
+  color: white;
+  box-shadow: 0 0 10px var(--btncolor), 0 0 30px var(--btncolor), 0 0 50px var(--btncolor);
+}
+.signupimg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+           /* Contact Page  */
+
+
+
+.admin_info_box{
+  padding: 1rem 2rem;
+  border: 1px solid black;
+box-shadow: 0 0 10px black;
+cursor: pointer;
+}
+.contact_box{}
+.Main_admin_message{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+.admin_message_icon{
+  font-size: 10rem;
+}
+
+.admin_contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sending_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.admin_message_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-controle{
+  margin: 1.5rem 0;
+}
+
+                /* Error Page  */
+
+
+
+
+
+
+                /* about page  */
+
+.nav-tabs-about{
+  display: flex;
+}
+.nav-tabs-about a{
+  text-decoration: none;
+}
+.nav-tabs-about li{
+  list-style: none;
+  padding: 0 1rem;
+}
+.employee-profile{
+  width: 12rem;
+}
+
+
+
+/* Responsive */
+
+@media(max-width:600px){
+  html{
+    font-size: 90%;
+  }
+}
+@media(max-width:500px){
+  html{
+    font-size: 80%;
+  }
+}
+@media(max-width:400px){
+  html{
+    font-size: 76%;
+  }
+}
+@media(max-width:300px){
+  html{
+    font-size: 60%;
+  }
+}
+@media(max-width:200px){
+  html{
+    font-size: 50%;
+  }
+}
